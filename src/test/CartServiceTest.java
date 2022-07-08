@@ -45,7 +45,6 @@ public class CartServiceTest {
         Map<String,Integer> cartProductMap = new HashMap<>();
         cartProductMap.put("测试1",1);
         cartProductMap.put("测试2",2);
-
         int i = cartService.addBatchOrderItem("11", cartProductMap);
         System.out.println(i);
     }
