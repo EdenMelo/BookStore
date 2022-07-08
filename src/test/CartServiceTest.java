@@ -53,7 +53,7 @@ public class CartServiceTest {
     public void testFindOrderByUserId(){
         List<Order> list = cartService.findOrderByUserId("3");
         list.forEach(System.out::println);
-        System.out.println("1");
+        System.out.println("2");
     }
 
     @Test
