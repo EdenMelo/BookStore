@@ -1,0 +1,28 @@
+#div1 span{
+    position: relative;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#div1{
+    /*<div style="background-color: black; height: 30px; width: 2000px; color: white; padding: 10px" id="div1">*/
+    background-color: black;
+    position: relative;
+    height: 30px;
+    width: 2000px;
+    margin-left: 1px;
+    color: white;
+    /*设定padding属性自动在四周留白，实现水平垂直居中的效果*/
+    padding: 10px;
+}
+
+
+#div2{
+    background-color: orange;
+    position: relative;
+    height: 30px;
+    width: 2000px;
+    color: white;
+    /*设定padding属性自动在四周留白，实现水平垂直居中的效果*/
+    padding: 10px;
+}

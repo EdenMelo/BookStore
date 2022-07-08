@@ -1,0 +1,38 @@
+/*table{*/
+#registerTable{
+    border: 1px solid gray;
+    background-color: #FCFDEF;
+    width: 1500px;
+    height: 500px;
+    margin-left: 200px;
+    background-clip: padding-box;
+}
+
+th{
+    text-align: left;
+}
+
+.formItem{
+    width: 570px;
+    height: 60px;
+    padding: 5px 10px;
+    /*border: 1px solid black;*/
+}
+
+/*将label作为块状元素呈现，并固定所有label的宽度，让label中的元素右对齐*/
+/*lable不独占一行，可以当前行的其他元素合并*/
+label{
+    width: 150px;
+    display: inline-block;
+    text-align: right;
+}
+
+.word{
+    color: gray;
+}
+
+
+
+
+
+
